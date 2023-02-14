@@ -1,0 +1,96 @@
+/*
+Name: Vlad O.
+Date: 11/14/2022
+File: styles.css
+File desc: styles file for show_data.html
+*/
+
+/* layout logic */
+body {
+    display: grid;
+    width: 900px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background: url(working_with_datasets/images/background-image.png);
+    background-size: cover;
+    padding-top: 100px;
+    align-content: center;
+    justify-content: center;
+}
+
+/* your styles go here... */
+* {
+    font-family: Arial, sans-serif;
+}
+
+#left-column {
+    background-color: #f8f8f8;
+    padding: 50px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 2px #c0c0c0;
+    height: 430px;
+}
+
+#left-column:hover {
+    box-shadow: 0px 5px 10px 2px #9d9d9d;
+}
+
+#left-column p {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#left-column p a {
+    font-weight: bold;
+}
+
+#right-column {
+    background-color: #f8f8f8;
+    padding: 50px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 2px #c0c0c0;
+    height: 400px;
+    align-self: center;
+    justify-self: center;
+}
+
+#right-column:hover {
+    box-shadow: 0px 5px 10px 2px #9d9d9d;
+}
+
+section {
+    padding: 10px 0 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#left-column div section:first-of-type {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #e7e7e7;
+    font-size: 20px;
+    color: #868686;
+}
+
+button:hover {
+    border: #d2d2d2 1px solid;
+    color: #000001;
+}
+
+aside li {
+    padding: 20px 10px 20px 0;
+}
+

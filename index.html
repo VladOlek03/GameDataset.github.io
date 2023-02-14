@@ -1,0 +1,75 @@
+<!--
+Name: Vlad O.
+Date: 11/14/2022
+File: show_data.html
+File desc: webpage that displays an index of each game within the dataset.js file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Dataset</title>
+
+        <!-- styles for the page... -->
+        <link rel="stylesheet" href="styles/styles.css">
+
+        <!-- reference the script with your JS array here... -->
+        <script src="scripts/dataset.js"></script>
+    </head>
+
+    <body>
+        <main id="left-column">
+            <h1>Video Game Dataset</h1>
+            <p>Data set that covers games and information related to their year of release, genre, etc.
+                It contains <a id="num-games"></a> elements.</p>
+            <div>
+                <section>
+                    <span id="game-title"></span>
+                </section>
+                <section>
+                    <label>Publishers:</label>
+                    <span id="publisher-title"></span>
+                </section>
+                <section>
+                    <label>Average play-through:</label>
+                    <span id="average">Value</span>
+                </section>
+                <section>
+                    <label>Max Players:</label>
+                    <span id="max-players">Value</span>
+                </section>
+                <section>
+                    <label>Genre:</label>
+                    <span id="genre">Value</span>
+                </section>
+                <section>
+                    <label>Released (Year):</label>
+                    <span id="released">Value</span>
+                </section>
+                <section>
+                    <label>Price (Used):</label>
+                    <span id="price">Value</span>
+                </section>
+
+                <section id="buttons">
+                    <button id="previous"><</button>
+                    <button id="next">></button>
+                </section>
+            </div>
+        </main>
+        <aside id="right-column">
+            <h2>Here are some interesting facts in my dataset!</h2>
+            <ul>
+                <li id="longest-playtime"></li>
+                <li id="high-low_price"></li>
+                <li id="nintendo-games"></li>
+                <li id="average-total"></li>
+            </ul>
+        </aside>
+
+        <!-- reference the script with program behavior here... -->
+        <script src="scripts/program_behavior.js"></script>
+    </body>
+</html>
+
