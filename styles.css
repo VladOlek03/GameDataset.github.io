@@ -12,7 +12,7 @@ body {
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    background: url(background-image.png);
+    background: url("background-image.png");
     background-size: cover;
     padding-top: 100px;
     align-content: center;
